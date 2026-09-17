@@ -25,16 +25,21 @@ No SD card or physical controls are required.
 
 🔌 Wiring
 
-The TFT has these pins:
 
-TFT	ESP32 DevKit V1
-VCC	3V3
-LED	3V3
-GND	GND
-SCK	GPIO 18
-SDA	GPIO 23
-AO / DC	GPIO 26
-RESET	GPIO 4
-CS	GPIO 5
+VCC-3V3
+
+LED-3V3
+
+GND-GND
+
+SCK-GPIO 18
+
+SDA-GPIO 23
+
+AO / DC-GPIO 26
+
+RESET-GPIO 4
+
+CS-GPIO 5
 
 Important: The TFT's SDA pin is being used as SPI MOSI, not I²C SDA.
